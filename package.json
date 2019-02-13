@@ -1,0 +1,14 @@
+{
+  "name": "ttds-codemod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ThingsThatDoStuff/ttds-codemod.git",
+  "author": "Thomas Aylott <thomas@thingsthatdostuff.com>",
+  "license": "MIT",
+  "scripts": {
+    "demo": "jscodeshift -t ./demo.transform.js ./fileA.js ./fileB.js --foo=bar"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.6.3"
+  }
+}
